@@ -4,19 +4,27 @@ h1{
     text-align: left;
 }
 p{
-    text-align: center;
+    text-align: left;
 }
-a:link, a:visited{
+a, a:link, a:visited{
+    position: relative;
+    left: 40%;
     background-color: bisque;
     color: black;
     text-align: center;
     display: inline-block;
-    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
 a:hover, a:active{
+    position: relative;
+    left: 40%;
     background-color: grey;
     color: blue;
     text-align: center;
     display: inline-block;
-    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
 }
