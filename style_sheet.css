@@ -1,4 +1,22 @@
 h1{
     color: orangered;
     background-image: url("Header1_background.png");
+    text-align: left;
+}
+p{
+    text-align: center;
+}
+a:link, a:visited{
+    background-color: bisque;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+a:hover, a:active{
+    background-color: grey;
+    color: blue;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
 }
